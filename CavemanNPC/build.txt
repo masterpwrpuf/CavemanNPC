@@ -1,3 +1,7 @@
 displayName = Caveman NPC
 author = Frankly Franky
-version = 1.2
+version = 1.4
+homepage = https://github.com/masterpwrpuf/CavemanNPC
+hideCode = false
+hideResources = false
+includeSource = true

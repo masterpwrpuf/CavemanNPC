@@ -1,7 +1,13 @@
 This mod adds a basic Caveman as a town NPC. Very early version.
 
-Changelog
+Changelog 1.4
 
-Changed SFX
+- Changed SFX
 
-Added a placeholder weapon
+- Added a placeholder weapon
+
+- Changed icon
+
+Planned Features
+
+- Pet
