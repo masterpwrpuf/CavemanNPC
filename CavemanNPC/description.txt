@@ -2,11 +2,15 @@ This mod adds a basic Caveman as a town NPC. Very early version.
 
 Feel free to poke around the source code. Any tips? Let me know on the GitHub!
 
-Changelog 1.4
+Changelog 1.4.2
+
+- Added a generic stone javelin, sold by the Caveman
+
+Changelog 1.4.1
 
 - Changed SFX
 
-- Added a placeholder weapon
+- Added a placeholder sword
 
 - Changed icon
 

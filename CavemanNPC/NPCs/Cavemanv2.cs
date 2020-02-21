@@ -129,6 +129,8 @@ namespace CavemanNPC.NPCs
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.WoodenClub>());
 			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneJavelin>());
+			nextSlot++;
 		}
 			
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {
