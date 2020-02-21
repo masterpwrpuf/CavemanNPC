@@ -1,5 +1,7 @@
 This mod adds a basic Caveman as a town NPC. Very early version.
 
+Feel free to poke around the source code. Any tips? Let me know on the GitHub!
+
 Changelog 1.4
 
 - Changed SFX
