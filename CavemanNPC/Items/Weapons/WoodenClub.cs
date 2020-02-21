@@ -29,7 +29,7 @@ namespace CavemanNPC.Items.Weapons
 			item.useStyle = 1;          //The use style of weapon, 1 for swinging, 2 for drinking, 3 act like shortsword, 4 for use like life crystal, 5 for use staffs or guns
 			item.knockBack = 6;         //The force of knockback of the weapon. Maximum is 20
 			item.value = Item.buyPrice(silver: 20);           //The value of the weapon
-			item.rare = 3;              //The rarity of the weapon, from -1 to 13
+			item.rare = 1;              //The rarity of the weapon, from -1 to 13
 			item.expert = false;
 			item.UseSound = SoundID.Item45;      //The sound when the weapon is using
 			item.autoReuse = true;          //Whether the weapon can use automatically by pressing mousebutton

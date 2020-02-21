@@ -131,6 +131,8 @@ namespace CavemanNPC.NPCs
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneJavelin>());
 			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.PetRock>());
+			nextSlot++;
 		}
 			
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {
@@ -154,7 +156,7 @@ namespace CavemanNPC.NPCs
 		// Melee Attack
 		public override void DrawTownAttackSwing(ref Texture2D item, ref int itemSize, ref float scale, ref Vector2 offset)
         {
-            scale = 1f;
+            scale = 1.5f;
             item = Main.itemTexture[mod.ItemType("WoodenClub")];
             itemSize = 56; //56
         }

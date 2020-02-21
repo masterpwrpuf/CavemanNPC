@@ -25,7 +25,7 @@ namespace CavemanNPC.Items.Weapons
 			item.width = 32;
 			item.height = 32;
 			item.scale = 1f;
-			item.rare = 3;
+			item.rare = 1;
 			item.value = Item.buyPrice(silver: 30);
 			item.maxStack = 999;
 			item.melee = true;
