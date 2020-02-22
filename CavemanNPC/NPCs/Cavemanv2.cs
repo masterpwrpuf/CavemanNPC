@@ -102,7 +102,7 @@ namespace CavemanNPC.NPCs
 				case 1:
 					return "Me once find big rock. Me now lost big rock.";
 				default:
-					return "Rokk!";
+					return "Have you seen Big Chungus? Scary rabbit!";
 			}
 		}
 		
@@ -132,6 +132,8 @@ namespace CavemanNPC.NPCs
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneJavelin>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.PetRock>());
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.ChungusMusicBox>());
 			nextSlot++;
 		}
 			

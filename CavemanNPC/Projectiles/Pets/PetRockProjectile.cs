@@ -22,6 +22,9 @@ namespace CavemanNPC.Projectiles.Pets
         {
             projectile.CloneDefaults(ProjectileID.Bunny); // This will clone the defaults from another projectile.
             aiType = ProjectileID.Bunny;
+			projectile.width = 35;
+			projectile.height = 33;
+			projectile.scale = 1f;
         }
 		
         public override bool PreAI() {

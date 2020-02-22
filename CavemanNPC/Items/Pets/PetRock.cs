@@ -29,6 +29,10 @@ namespace CavemanNPC.Items.Pets
 			item.value = Item.buyPrice(gold: 20);
 			item.UseSound = SoundID.Item105;
 			item.consumable = false;
+			item.maxStack = 1;
+			item.width = 35;
+			item.height = 33;
+			item.scale = 1f;
         }
 
         public override void UseStyle(Player player)

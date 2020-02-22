@@ -31,19 +31,19 @@ namespace CavemanNPC.Items.Weapons
 			item.value = Item.buyPrice(silver: 20);           //The value of the weapon
 			item.rare = 1;              //The rarity of the weapon, from -1 to 13
 			item.expert = false;
-			item.UseSound = SoundID.Item45;      //The sound when the weapon is using
+			item.UseSound = SoundID.Item1;      //The sound when the weapon is using
 			item.autoReuse = true;          //Whether the weapon can use automatically by pressing mousebutton
 		}
 
 		// This is the recipe
-		/*
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Wood), 20);
-			recipe.AddTile(TileID.Workbenches);
+			recipe.AddRecipeGroup("Wood", 20);
+			//recipe.AddIngredient(ItemID.anyWood, #); doesnt work, use recipe.AddRecipeGroup("Wood", #); instead
+			//recipe.AddIngredient(ItemID.anyWood, 20);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
-		*/
 	}
 }

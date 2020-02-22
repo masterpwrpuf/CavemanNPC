@@ -1,6 +1,12 @@
 This mod adds a basic Caveman as a town NPC. Very early version.
 
 Feel free to poke around the source code. Any tips? Let me know on the GitHub!
+https://github.com/masterpwrpuf/CavemanNPC
+
+Changelog 1.4.4
+
+- Added a music box, for 50 gold, from the Caveman
+- Added a WIP sprite for the Wooden Club
 
 Changelog 1.4.3
 
@@ -13,9 +19,14 @@ Changelog 1.4.2
 Changelog 1.4.1
 
 - Changed SFX
-
 - Added a placeholder sword
-
 - Changed icon
 
 Planned Features
+
+- Make a better Wooden Club sprite
+- Make a Stone Javelin sprite
+- Make a music box sprite (When placed)
+- Fix Pet Rock's sprite (Edges are too bright)
+- Add detail to the Caveman sprite
+- Make the Pet Rock spawn, but not move after spawn (Not sure how to do that yet)
