@@ -1,7 +1,7 @@
 # CavemanNPC
 Mod for Terraria's TmodLoader
 
-![alt text](https://imgur.com/a/9V3q5dl "CavemanNPC")
+[logo]: https://github.com/masterpwrpuf/CavemanNPC/blob/master/CavemanNPC/icon.png "Logo Title Text 2"
 
 ##### Feel free to copy and edit the source code
 
