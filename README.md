@@ -5,7 +5,7 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-###Changelog 1.4.6
+### Changelog 1.4.6
 
 * Added a new music box with "CurseOfTheDungeon" from Calamity Music Extra
 * Reduced NPC Defense to 15 from 20
