@@ -7,7 +7,7 @@
 ## Whats New?
 Changelog 1.4.6
 
-* Added a new music box with ### "CurseOfTheDungeon" ### from Calamity Music Extra
+* Added a new music box with "CurseOfTheDungeon" from Calamity Music Extra
 * Reduced NPC Defense to 15 from 20
 * Reduced NPC HP to 250 from 1000
 * Made the buy cost of Leather 1 Silver, 25 Copper
