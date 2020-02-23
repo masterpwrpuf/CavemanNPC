@@ -15,26 +15,26 @@
 * Pet Rock (20 Gold)
 * Music Box (50 Gold)
 
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
 ### Caveman Rokk
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
 Rokk currently sells [Leather](https://terraria.gamepedia.com/Leather), Tiger, Leopard, and Zebra [skins](https://terraria.gamepedia.com/Animal_Skins), as well as the Wooden Club, Stone Javelin, Pet Rock, and Music Box.
 
 Rokk doesn't know how he got to this land, but he will gladly defend the home from any intruders until he can find a way to get home.
 
 #
 
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconclub.png "Wooden Club Icon")
 ### Wooden Club
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconclub.png "Wooden Club Icon")
 A simple Wooden Club, Rokk's weapon of choice. Deals a base 50 damage with a decently fast use time.
 (Yes, I know the sprite for this looks like trash, I'm not an artist.)
 
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Javelin Icon")
 ### Stone Javelin (Buggy)
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Javelin Icon")
 A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of weapon is barbaric, opting to use his trusty club.
 (The sprite for this is the default sprite from ExampleMod)
 
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon")
 ### Pet Rock
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon")
 Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really. Rocky is on loan from Rokk's friend, Patrick.
 
 # Planned Features
