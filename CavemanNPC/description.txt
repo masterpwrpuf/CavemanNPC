@@ -3,7 +3,7 @@ This mod adds a basic Caveman as a town NPC. Very early version.
 Feel free to poke around the source code. Any tips? Let me know on the GitHub!
 https://github.com/masterpwrpuf/CavemanNPC
 
-Changelog 1.4.4.1
+Changelog 1.4.5
 
 - Fixed the issue where the NPC would swing the club, but not do any damage
 
