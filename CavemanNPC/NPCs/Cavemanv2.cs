@@ -143,7 +143,7 @@ namespace CavemanNPC.NPCs
 		}
 		
 		public override void TownNPCAttackCooldown(ref int cooldown, ref int randExtraCooldown) {
-			cooldown = 5;
+			cooldown = 3;
 			randExtraCooldown = 15;
 		}
 		
@@ -162,11 +162,12 @@ namespace CavemanNPC.NPCs
             item = Main.itemTexture[mod.ItemType("WoodenClub")];
             itemSize = 56; //56
         }
-		
-		/*
-		public override void TownNPCAttackProjSpeed(ref float multiplier, ref float gravityCorrection, ref float randomOffset) {
-			multiplier = 12f;
-			randomOffset = 2f;
-			} */
+
+		// TownNPCAttackSwing is not the same as TownAttackSwing even though it will compile
+		public override void TownNPCAttackSwing(ref int itemwidth, ref int itemheight)
+		{
+			itemwidth = 40;
+			itemheight = 40;
 		}
 	}
+}

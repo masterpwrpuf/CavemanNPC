@@ -21,7 +21,7 @@ namespace CavemanNPC.Items.Placeable
 			item.width = 24;
 			item.height = 24;
 			item.rare = -12;
-			item.value = 500000;
+			item.value = 500000; // 1 = 1 copper, 100 = 1 silver, 1000 = 10 silver, 10000 = 1 gold
 			item.accessory = true;
 		}
 	}

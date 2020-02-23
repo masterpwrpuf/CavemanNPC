@@ -18,7 +18,34 @@ namespace CavemanNPC.Items.Weapons
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("A Wooden Club from Rokk's personal collection.");  //The (English) text shown below your weapon's name
 		}
-
+		public override void SetDefaults()
+        {
+            item.CloneDefaults(ItemID.Cutlass);
+            //item.name = "Wooden Club";
+            item.useStyle = 1;
+            item.width = 40;
+            item.height = 40;
+            item.noUseGraphic = false;
+			item.melee = true;
+            item.UseSound = SoundID.Item1;
+            item.thrown = false;
+            //item.channel = true;
+            item.noMelee = false;
+            item.consumable = false;
+            item.maxStack = 1;
+            //item.shoot = mod.ProjectileType("EtherealSpearProjectile");
+            //item.toolTip = "Inflicts Essence Trap";
+            item.useAnimation = 20;
+            item.useTime = 25;
+            //item.shootSpeed = 11f;
+            item.damage = 50;
+            item.knockBack = 5f;
+			item.value = Item.buyPrice(silver: 20);
+            //item.crit = 6;
+            item.rare = 1;
+            item.autoReuse = true;
+        }
+/*
 		public override void SetDefaults() {
 			item.damage = 50;           //The damage of your weapon
 			item.melee = true;          //Is your weapon a melee weapon?
@@ -34,7 +61,7 @@ namespace CavemanNPC.Items.Weapons
 			item.UseSound = SoundID.Item1;      //The sound when the weapon is using
 			item.autoReuse = true;          //Whether the weapon can use automatically by pressing mousebutton
 		}
-
+*/
 		// This is the recipe
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
