@@ -30,7 +30,7 @@ A simple Wooden Club, Rokk's weapon of choice. Deals a base 50 damage with a dec
 A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of weapon is barbaric, opting to use his trusty club.
 (The sprite for this is the default sprite from ExampleMod)
 
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Stone Javelin Icon")
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon")
 ### Pet Rock
 Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really. Rocky is on loan from Rokk's friend, Patrick.
 
