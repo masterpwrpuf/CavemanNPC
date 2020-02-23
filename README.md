@@ -51,5 +51,5 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 * Add more lore as to how Rokk came to this place and time
 
 # Known Bugs
-* Rokk's attack doesn't actually do damage 100% of the time. Not sure why, or how to fix it currently.
+* ~~Rokk's attack doesn't actually do damage 100% of the time. Not sure why, or how to fix it currently.~~
 * Stone Javelins throw 2 at a time, and you can't throw another until the currently thrown javelins hit the ground.
