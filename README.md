@@ -61,4 +61,4 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 #
 
 ###### Special Thanks To
-###### * 3CupsOfTea aka Pac Attack for sprite work and mod ideas
+* 3CupsOfTea aka PacAttack for sprite work and mod ideas
