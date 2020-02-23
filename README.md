@@ -56,3 +56,8 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 # Known Bugs
 * ~~Rokk's attack doesn't actually do damage 100% of the time. Not sure why, or how to fix it currently.~~
 * Stone Javelins throw 2 at a time, and you can't throw another until the currently thrown javelins hit the ground.
+
+#
+
+###### Special Thanks To
+* 3CupsOfTea aka Pac Attack for sprite work and mod ideas
