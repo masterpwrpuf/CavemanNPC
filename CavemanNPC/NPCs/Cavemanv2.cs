@@ -86,17 +86,13 @@ namespace CavemanNPC.NPCs
 			int num = npc.life > 0 ? 1 : 5;
 		}
 
-		public override bool CanTownNPCSpawn(int numTownNPCs, int money) {
-			for (int k = 0; k < 255; k++) {
-				Player player = Main.player[k];
-				if (!player.active) {
-					continue;
-				}
-				//if (NPC.downedBoss1 == true); {
-				//	return true;
+		public override bool CanTownNPCSpawn(int numTownNPCs, int money)
+        {
+            if (NPC.downedSlimeKing); {
+				return true;
 			}
 			return false;
-		}
+        }
 	//} // Un-comment if using downedBoss1
 
 		public override string TownNPCName() {
