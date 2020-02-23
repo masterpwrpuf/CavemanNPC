@@ -12,6 +12,8 @@
 * Pet Rock (20 Gold)
 * Music Box (50 Gold)
 
+
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
 ### Caveman Rokk
 Rokk currently sells Leather, Tiger, Leopard, and Zebra skins, as well as the Wooden Club, Stone Javelin, Pet Rock, and Music Box.
 
