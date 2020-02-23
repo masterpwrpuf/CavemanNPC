@@ -17,11 +17,17 @@ Rokk currently sells Leather, Tiger, Leopard, and Zebra skins, as well as the Wo
 
 Rokk doesn't know how he got to this land, but he will gladly defend the home from any intruders until he can find a way to get home.
 
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconclub.png "Wooden Club Icon")
 ### Wooden Club
 A simple Wooden Club, Rokk's weapon of choice. Deals a base 50 damage with a decently fast use time.
 
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Javelin Icon")
 ### Stone Javelin (Buggy)
 A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of weapon is barbaric, opting to use his trusty club.
+
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Stone Javelin Icon")
+### Pet Rock
+Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really.
 
 # Planned Features
 * Make a better Wooden Club sprite
