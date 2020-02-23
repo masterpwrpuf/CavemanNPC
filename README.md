@@ -5,7 +5,7 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-##### Changelog 1.4.6
+##### Changelog 1.4.6 & 1.4.7
 
 * Added a new music box with "CurseOfTheDungeon" from Calamity Music Extra
 * Reduced NPC Defense to 15 from 20
@@ -13,7 +13,7 @@
 * Made the buy cost of Leather 1 Silver, 25 Copper
 * Added Rokk's Club, dropped on death
 * Added a new chat dialog to the Caveman, and re-coded the chances of each line appearing, 0.1 being rare, 10 being super common
-
+* Killing King Slime now allows the NPC to spawn (I may move it to another boss)
 
 
 # Current Features
@@ -61,6 +61,7 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 # Possible Features
 * A custom boss with music relevant to the current Music Box
 * Add more lore as to how Rokk came to this place and time
+* Make the NPC bound, like the Wizard, and found underground
 
 # Known Bugs
 * ~~Rokk's attack doesn't actually do damage 100% of the time. Not sure why, or how to fix it currently.~~
