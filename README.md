@@ -31,7 +31,7 @@ A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of 
 
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Stone Javelin Icon")
 ### Pet Rock
-Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really.
+Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really. Rocky is on loan from Rokk's friend, Patrick.
 
 # Planned Features
 * Make a better Wooden Club sprite
