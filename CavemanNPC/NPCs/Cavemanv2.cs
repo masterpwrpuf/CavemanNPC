@@ -11,7 +11,35 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Terraria.Utilities;
 using static Terraria.ModLoader.ModContent;
+
+		/* Checks
+		downedMechBossAny = true/false;
+		downedMechBoss1/2/3 = true/false;
+		downedBoss1/2/3 = true/false;
+		downedQueenBee = true/false;
+		downedSlimeKing = true/false;
+		downedGoblins = true/false;
+		downedFrost = true/false;
+		downedPirates = true/false;
+		downedClown = true/false;
+		downedPlantBoss = true/false;
+		downedGolemBoss = true/false;
+		downedMartians = true/false;
+		downedFishron = true/false;
+		downedHalloweenTree = true/false;
+		downedHalloweenKing = true/false;
+		downedChristmanIceQueen = true/false;
+		downedChristmasTree = true/false;
+		downedChristmasSantank = true/false;
+		downedAncientCultist = true/false;
+		downedMoonLord = true/false;
+		downedTowerSolar = true/false;
+		downedTowerVortex = true/false;
+		downedTowerNebula = true/false;
+		downedTowerStardust = true/false;		
+		*/
 
 namespace CavemanNPC.NPCs
 {
@@ -45,9 +73,9 @@ namespace CavemanNPC.NPCs
 			npc.width = 18;
 			npc.height = 40;
 			npc.aiStyle = 7;
-			npc.damage = 20;
+			npc.damage = 15;
 			npc.defense = 20;
-			npc.lifeMax = 1000;
+			npc.lifeMax = 250;
 			npc.HitSound = SoundID.DD2_OgreHurt;
 			npc.DeathSound = SoundID.DD2_JavelinThrowersDeath;
 			npc.knockBackResist = 0.5f;
@@ -64,11 +92,12 @@ namespace CavemanNPC.NPCs
 				if (!player.active) {
 					continue;
 				}
-				//if (NPC.downedBoss1) = true {
+				//if (NPC.downedBoss1 == true); {
 				//	return true;
 			}
 			return false;
 		}
+	//} // Un-comment if using downedBoss1
 
 		public override string TownNPCName() {
 			switch (WorldGen.genRand.Next(2)) {
@@ -96,14 +125,26 @@ namespace CavemanNPC.NPCs
 			if (ArmsDealer >= 0 && Main.rand.NextBool(4)) {
 				return Main.npc[ArmsDealer].GivenName + " has scary boom stick.";
 			}
-			switch (Main.rand.Next(3)) {
+			// Old Chat Options
+			/*switch (Main.rand.Next(4)) {
 				case 0:
 					return "I big strong, you small weak.";
 				case 1:
 					return "Me once find big rock. Me now lost big rock.";
+				case 2:
+					return "How I get home? I scared of strange land.";
+				case 3:
+					return "I give you Wooden Club, good price.";
 				default:
 					return "Have you seen Big Chungus? Scary rabbit!";
-			}
+			}*/
+			// New Chat Options
+			WeightedRandom<string> chat = new WeightedRandom<string>();
+			chat.Add("I big strong, you small weak.", 5.0);
+			chat.Add("How I get home? I scared of strange land.", 10.0);
+			chat.Add("Have you seen Big Chungus? Scary rabbit!", 0.1);
+			chat.Add("I give you Wooden Club, good price.", 3.0);
+			return chat.Get();
 		}
 		
 		public override void SetChatButtons(ref string button, ref string button2) {
@@ -120,6 +161,7 @@ namespace CavemanNPC.NPCs
 		public override void SetupShop(Chest shop, ref int nextSlot)
 		{
 			shop.item[nextSlot].SetDefaults(ItemID.Leather);
+			shop.item[nextSlot].shopCustomPrice = 125; // 1 = 1 copper, 100 = 1 silver, 1000 = 10 silver, 10000 = 1 gold
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemID.TigerSkin);
 			nextSlot++;
@@ -134,6 +176,8 @@ namespace CavemanNPC.NPCs
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.PetRock>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.ChungusMusicBox>());
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.SkeletronMusicBox>());
 			nextSlot++;
 		}
 			
@@ -155,11 +199,15 @@ namespace CavemanNPC.NPCs
 		}
 		*/
 		
+		public override void NPCLoot() {
+			Item.NewItem(npc.getRect(), ItemType<Items.Weapons.RokkClub>());
+		}
+		
 		// Melee Attack
 		public override void DrawTownAttackSwing(ref Texture2D item, ref int itemSize, ref float scale, ref Vector2 offset)
         {
             scale = 1.5f;
-            item = Main.itemTexture[mod.ItemType("WoodenClub")];
+            item = Main.itemTexture[mod.ItemType("Rokk's Club")];
             itemSize = 56; //56
         }
 

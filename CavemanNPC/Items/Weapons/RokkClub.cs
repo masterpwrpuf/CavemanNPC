@@ -13,15 +13,16 @@ using static Terraria.ModLoader.ModContent;
 
 namespace CavemanNPC.Items.Weapons
 {
-	public class WoodenClub : ModItem
+	public class RokkClub : ModItem
 	{
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("A Wooden Club from Rokk's personal collection.");  //The (English) text shown below your weapon's name
-			DisplayName.SetDefault("Wooden Club");
+			Tooltip.SetDefault("Rokk's very own Wooden Club");
+			//+ "/Use it wisely.") ;  //The (English) text shown below your weapon's name
+			DisplayName.SetDefault("Rokk's Club");
 		}
 		/* How to use multiple tooltip lines
 			Tooltip.SetDefault("This is a line."
-			+ "This is another line.");
+			+ "/nThis is another line.");
 		*/
 		public override void SetDefaults()
         {
@@ -40,13 +41,13 @@ namespace CavemanNPC.Items.Weapons
             //item.shoot = mod.ProjectileType("EtherealSpearProjectile");
             //item.toolTip = "Inflicts Essence Trap";
             item.useAnimation = 20;
-            item.useTime = 25;
+            item.useTime = 20;
             //item.shootSpeed = 11f;
-            item.damage = 50;
+            item.damage = 100;
             item.knockBack = 5f;
 			item.value = Item.buyPrice(silver: 20);
             //item.crit = 6;
-            item.rare = 1;
+            item.rare = -12;
             item.autoReuse = true;
         }
 /*
@@ -67,6 +68,7 @@ namespace CavemanNPC.Items.Weapons
 		}
 */
 		// This is the recipe
+		/*
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddRecipeGroup("Wood", 20);
@@ -76,5 +78,6 @@ namespace CavemanNPC.Items.Weapons
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
+		*/
 	}
 }

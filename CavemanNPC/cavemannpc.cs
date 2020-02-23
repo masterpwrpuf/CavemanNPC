@@ -25,6 +25,7 @@ namespace CavemanNPC
 			if (!Main.dedServ) {
 				// Register a new music box
 				AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/chungus"), ItemType("ChungusMusicBox"), TileType("ChungusMusicBox"));
+				AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/CurseOfTheDungeon"), ItemType("SkeletronMusicBox"), TileType("SkeletronMusicBox"));
 			}
 		}
 

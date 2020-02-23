@@ -13,6 +13,7 @@ namespace CavemanNPC.Items.Weapons
 	{
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("Stone Javelin");
+			DisplayName.SetDefault("Stone Javelin");
 		}
 
 		public override void SetDefaults() {
