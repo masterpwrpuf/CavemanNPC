@@ -5,7 +5,15 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-* Fixed a NPC issue where he would swing the club but would do no damage
+Changelog 1.4.6
+
+* Added a new music box with #"CurseOfTheDungeon"#/ from Calamity Music Extra
+* Reduced NPC Defense to 15 from 20
+* Reduced NPC HP to 250 from 1000
+* Made the buy cost of Leather 1 Silver, 25 Copper
+* Added Rokk's Club, dropped on death
+* Added a new chat dialog to the Caveman, and re-coded the chances of each line appearing, 0.1 being rare, 10 being super common
+
 
 
 # Current Features
