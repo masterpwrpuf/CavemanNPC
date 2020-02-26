@@ -21,12 +21,13 @@
 * Wooden Club Weapon (20 Silver)
 * Stone Javelin Weapon (30 Silver)
 * Pet Rock (20 Gold)
-* Music Box (50 Gold)
+* Chungus Music Box (50 Gold)
+* Skeletron Music Box (50 Gold)
 
 ### Caveman Rokk
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
 
-Rokk currently sells [Leather](https://terraria.gamepedia.com/Leather), Tiger, Leopard, and Zebra [skins](https://terraria.gamepedia.com/Animal_Skins), as well as the Wooden Club, Stone Javelin, Pet Rock, and Music Box.
+Rokk currently sells [Leather](https://terraria.gamepedia.com/Leather), Tiger, Leopard, and Zebra [skins](https://terraria.gamepedia.com/Animal_Skins), as well as the Wooden Club, Stone Javelin, Pet Rock, and 2 Music Boxes.
 
 Rokk doesn't know how he got to this land, but he will gladly defend the home from any intruders until he can find a way to get home.
 
