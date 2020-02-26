@@ -22,11 +22,13 @@ namespace CavemanNPC
     {
 
         public bool PetRock = false;
+		public bool SpaceDude = false;
 
         public override void ResetEffects()
         {
             // Inside this method, we reset all the bools, ints, floats to a "default" value
             PetRock = false;
+			SpaceDude = false;
         }
 
 		public override void PostUpdateEquips()

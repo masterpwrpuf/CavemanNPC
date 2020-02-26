@@ -179,7 +179,7 @@ namespace CavemanNPC.Projectiles
 
 		// Added these 2 constant to showcase how you could make AI code cleaner by doing this
 		// Change this number if you want to alter how long the javelin can travel at a constant speed
-		private const int MAX_TICKS = 120;
+		private const int MAX_TICKS = 25;
 
 		// Change this number if you want to alter how the alpha changes
 		private const int ALPHA_REDUCTION = 25;

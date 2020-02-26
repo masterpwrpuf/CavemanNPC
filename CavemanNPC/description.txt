@@ -3,6 +3,11 @@ This mod adds a basic Caveman as a town NPC. Very early version.
 Feel free to poke around the source code. Any tips? Let me know on the GitHub!
 https://github.com/masterpwrpuf/CavemanNPC
 
+Changelog 1.4.8
+
+- Added a Stone Spear
+- Added a WIP flying pet, currently unobtainable
+
 Changelog 1.4.7
 
 - Made killing King Slime the requirement to have Caveman be willing to spawn

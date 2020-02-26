@@ -88,7 +88,7 @@ namespace CavemanNPC.NPCs
 
 		public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
-            if (NPC.downedSlimeKing); {
+            if (NPC.downedSlimeKing == true); {
 				return true;
 			}
 			return false;
@@ -154,10 +154,11 @@ namespace CavemanNPC.NPCs
 			}
 		}
 		
+		// 1 = 1 copper, 100 = 1 silver, 1000 = 10 silver, 10000 = 1 gold
 		public override void SetupShop(Chest shop, ref int nextSlot)
 		{
 			shop.item[nextSlot].SetDefaults(ItemID.Leather);
-			shop.item[nextSlot].shopCustomPrice = 125; // 1 = 1 copper, 100 = 1 silver, 1000 = 10 silver, 10000 = 1 gold
+			shop.item[nextSlot].shopCustomPrice = 100;
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemID.TigerSkin);
 			nextSlot++;
@@ -169,11 +170,16 @@ namespace CavemanNPC.NPCs
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneJavelin>());
 			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneSpear>());
+			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.PetRock>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.ChungusMusicBox>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.SkeletronMusicBox>());
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemID.BoneJavelin);
+			shop.item[nextSlot].shopCustomPrice = 200;
 			nextSlot++;
 		}
 			

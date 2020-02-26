@@ -5,16 +5,10 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-##### Changelog 1.4.6 & 1.4.7
+##### Changelog 1.4.8
 
-* Added a new music box with "CurseOfTheDungeon" from Calamity Music Extra
-* Reduced NPC Defense to 15 from 20
-* Reduced NPC HP to 250 from 1000
-* Made the buy cost of Leather 1 Silver, 25 Copper
-* Added Rokk's Club, dropped on death
-* Added a new chat dialog to the Caveman, and re-coded the chances of each line appearing, 0.1 being rare, 10 being super common
-* Killing King Slime now allows the NPC to spawn (I may move it to another boss)
-
+* Added a Stone Spear
+* Added a WIP flying pet, currently unobtainable
 
 # Current Features
 * Caveman NPC, Rokk
@@ -23,6 +17,7 @@
 * Pet Rock (20 Gold)
 * Chungus Music Box (50 Gold)
 * Skeletron Music Box (50 Gold)
+* Stone Spear (10 Silver)
 
 ### Caveman Rokk
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
@@ -58,6 +53,7 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 * Add detail to the Caveman sprite
 * Make the Pet Rock spawn, but not move after spawn (Not sure how to do that yet)
 * Change the buy price of Stone Javelins (Its too high, when you can craft 5 at a time for cheaper)
+* Make a better Stone Spear sprite
 
 # Possible Features
 * A custom boss with music relevant to the current Music Box
