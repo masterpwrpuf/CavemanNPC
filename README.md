@@ -5,10 +5,10 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-##### Changelog 1.4.8
+##### Changelog 1.4.9
 
 * Added a Stone Spear
-* Added a WIP flying pet, currently unobtainable
+* Added a WIP flying pet, ~~currently unobtainable~~
 
 # Current Features
 * Caveman NPC, Rokk
@@ -18,6 +18,7 @@
 * Chungus Music Box (50 Gold)
 * Skeletron Music Box (50 Gold)
 * Stone Spear (10 Silver)
+* Space Dude (1 Plat.)
 
 ### Caveman Rokk
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrokk.png "Caveman Rokk Icon")
@@ -40,10 +41,21 @@ A simple Wooden Club, Rokk's weapon of choice. Deals a base 50 damage with a dec
 A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of weapon is barbaric, opting to use his trusty club.
 (The sprite for this is the default sprite from ExampleMod)
 
+### Stone Spear
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Spear Icon")
+
+A WIP Stone Spear.
+(The sprite for this is the default sprite from ExampleMod)
+
 ### Pet Rock
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon")
 
 Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really. Rocky is on loan from Rokk's friend, Patrick.
+
+### Space Dude
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconspacedude.png "Space Dude Icon")
+
+A custom pet requested by 3CupsOfTea.
 
 # Planned Features
 * Make a better Wooden Club sprite

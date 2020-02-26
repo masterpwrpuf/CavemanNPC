@@ -14,7 +14,7 @@ namespace CavemanNPC.Projectiles.Pets
     {
         public override void SetStaticDefaults()
         {
-            Main.projFrames[projectile.type] = 3; // This pet has 4 frames that work as the animation
+            Main.projFrames[projectile.type] = 4; // This pet has 4 frames that work as the animation
             Main.projPet[projectile.type] = true; // This just marks the projectile as a pet
         }
 
@@ -23,9 +23,9 @@ namespace CavemanNPC.Projectiles.Pets
             projectile.CloneDefaults(ProjectileID.ZephyrFish); // This will clone the defaults from another projectile.
             aiType = ProjectileID.ZephyrFish;
 			projectile.width = 24;
-			projectile.height = 18;
+			projectile.height = 102;
 			projectile.scale = 1f;
-			Main.projFrames[projectile.type] = 3;
+			Main.projFrames[projectile.type] = 4;
             Main.projPet[projectile.type] = true;
         }
 		
@@ -43,13 +43,13 @@ namespace CavemanNPC.Projectiles.Pets
 			}
 			if (modPlayer.SpaceDude) {
 				projectile.timeLeft = 2;
-			}
+			}/*
 			if (++projectile.frameCounter >= 5) {
 				projectile.frameCounter = 0;
 				if (++projectile.frame >= 4) {
 					projectile.frame = 0;
 				}
-			}
+			}*/
 		}
     }
 }

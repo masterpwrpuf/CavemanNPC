@@ -3,6 +3,10 @@ This mod adds a basic Caveman as a town NPC. Very early version.
 Feel free to poke around the source code. Any tips? Let me know on the GitHub!
 https://github.com/masterpwrpuf/CavemanNPC
 
+Changelog 1.4.9
+
+- Fixed Space Dude animation, and added to the caveman's shop
+
 Changelog 1.4.8
 
 - Added a Stone Spear

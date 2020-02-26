@@ -181,6 +181,8 @@ namespace CavemanNPC.NPCs
 			shop.item[nextSlot].SetDefaults(ItemID.BoneJavelin);
 			shop.item[nextSlot].shopCustomPrice = 200;
 			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.SpaceDude>());
+			nextSlot++;
 		}
 			
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {

@@ -31,7 +31,7 @@ namespace CavemanNPC.Items.Pets
 			item.consumable = false;
 			item.maxStack = 1;
 			item.width = 44;
-			item.height = 114;
+			item.height = 39;
 			item.scale = 1f;
         }
 
