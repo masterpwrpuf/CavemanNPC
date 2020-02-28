@@ -12,11 +12,8 @@
 
 # Current Features
 * Caveman NPC, Rokk
-* ~~ Wooden Club Weapon (20 Silver) ~~
-* ~~ Stone Javelin Weapon (30 Silver) ~~
 * Chungus Music Box (50 Gold)
 * Skeletron Music Box (50 Gold)
-* ~~ Stone Spear (10 Silver) ~~
 * Pet Rock (20 Gold)
 * Space Dude (1 Plat.)
 
