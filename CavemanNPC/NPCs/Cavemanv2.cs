@@ -166,23 +166,24 @@ namespace CavemanNPC.NPCs
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemID.ZebraSkin);
 			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemID.BoneJavelin);
+			shop.item[nextSlot].shopCustomPrice = 200;
+			nextSlot++; /*		Un-used until proper sprites are made and polished
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.WoodenClub>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneJavelin>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Weapons.StoneSpear>());
-			nextSlot++;
+			nextSlot++; */
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.PetRock>());
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.SpaceDude>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.ChungusMusicBox>());
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ItemType<Items.Placeable.SkeletronMusicBox>());
 			nextSlot++;
-			shop.item[nextSlot].SetDefaults(ItemID.BoneJavelin);
-			shop.item[nextSlot].shopCustomPrice = 200;
-			nextSlot++;
-			shop.item[nextSlot].SetDefaults(ItemType<Items.Pets.SpaceDude>());
-			nextSlot++;
+			
 		}
 			
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {
@@ -203,15 +204,17 @@ namespace CavemanNPC.NPCs
 		}
 		*/
 		
-		public override void NPCLoot() {
-			Item.NewItem(npc.getRect(), ItemType<Items.Weapons.RokkClub>());
-		}
+		// Un-used until proper sprites are made and polished
+		//public override void NPCLoot() {
+		//	Item.NewItem(npc.getRect(), ItemType<Items.Weapons.RokkClub>());
+		//}
 		
 		// Melee Attack
 		public override void DrawTownAttackSwing(ref Texture2D item, ref int itemSize, ref float scale, ref Vector2 offset)
         {
             scale = 1.5f;
-            item = Main.itemTexture[mod.ItemType("Rokk's Club")];
+            //item = Main.itemTexture[mod.ItemType("Rokk's Club")];
+			item = Main.itemTexture[ItemID.WoodenSword];
             itemSize = 56; //56
         }
 

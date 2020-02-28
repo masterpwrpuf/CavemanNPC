@@ -5,19 +5,19 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-##### Changelog 1.4.9
+##### Changelog 1.5.0
 
-* Added a Stone Spear
-* Added a WIP flying pet, ~~currently unobtainable~~
+* Removed all custom weapons from the Caveman's shop until proper sprites are made
+* Changed the Caveman's choice of melee weapon from "Rokk's Club" to a Wooden Sword
 
 # Current Features
 * Caveman NPC, Rokk
-* Wooden Club Weapon (20 Silver)
-* Stone Javelin Weapon (30 Silver)
-* Pet Rock (20 Gold)
+*~~ Wooden Club Weapon (20 Silver) ~~
+*~~ Stone Javelin Weapon (30 Silver) ~~
 * Chungus Music Box (50 Gold)
 * Skeletron Music Box (50 Gold)
-* Stone Spear (10 Silver)
+*~~ Stone Spear (10 Silver) ~~
+* Pet Rock (20 Gold)
 * Space Dude (1 Plat.)
 
 ### Caveman Rokk
@@ -29,19 +29,19 @@ Rokk doesn't know how he got to this land, but he will gladly defend the home fr
 
 #
 
-### Wooden Club
+### Wooden Club (Unobtainable)
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconclub.png "Wooden Club Icon")
 
 A simple Wooden Club, Rokk's weapon of choice. Deals a base 50 damage with a decently fast use time.
 (Yes, I know the sprite for this looks like trash, I'm not an artist.)
 
-### Stone Javelin (Buggy)
+### Stone Javelin (Buggy) (Unobtainable)
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Javelin Icon")
 
 A simple Stone Javelin, thrown by some of Rokk's people. He thinks this type of weapon is barbaric, opting to use his trusty club.
 (The sprite for this is the default sprite from ExampleMod)
 
-### Stone Spear
+### Stone Spear (Unobtainable)
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconjavelin.png "Stone Spear Icon")
 
 A WIP Stone Spear.
@@ -74,7 +74,7 @@ A custom pet requested by 3CupsOfTea.
 
 # Known Bugs
 * ~~Rokk's attack doesn't actually do damage 100% of the time. Not sure why, or how to fix it currently.~~
-* Stone Javelins throw 2 at a time, and you can't throw another until the currently thrown javelins hit the ground.
+* Stone Javelins throw 2 at a time, and you can't throw another until the currently thrown javelins hit the ground. (On Hold)
 
 #
 
