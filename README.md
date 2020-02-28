@@ -22,6 +22,16 @@
 
 Rokk currently sells [Leather](https://terraria.gamepedia.com/Leather), Tiger, Leopard, and Zebra [skins](https://terraria.gamepedia.com/Animal_Skins), as well as the ~~Wooden Club, Stone Javelin, Stone Spear~~, Pet Rock, Space Dude, and 2 Music Boxes.
 
+| Item          | Price         | Ammount |
+|:-------------:|:-------------:|:-------:|
+| Leather       | 1 Silver	    | 1		  |
+| Skins         | 1 Gold        | 1       |
+| Bone Javelin  | 2 Silver 		| 1		  |
+| Pet Rock      | 20 Gold       | 1       |
+| Space Dude    | 1 Plat. 		| 1	 	  |
+| Chungus Box   | 50 Gold 		| 1  	  |
+| Skeletron Box | 50 Gold 		| 1 	  |
+
 Rokk doesn't know how he got to this land, but he will gladly defend the home from any intruders until he can find a way to get home.
 
 #

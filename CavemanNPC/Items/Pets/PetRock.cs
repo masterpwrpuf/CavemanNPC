@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -22,12 +24,13 @@ namespace CavemanNPC.Items.Pets
 
         public override void SetDefaults()
         {
-            item.CloneDefaults(ItemID.Bunny); // This clones an existing item, this is to save time.
+            item.CloneDefaults(ItemID.ZephyrFish); // This clones an existing item, this is to save time.
             item.shoot = mod.ProjectileType("PetRockProjectile");
             item.buffType = mod.BuffType("PetRock");
 			item.rare = -12;
 			item.value = Item.buyPrice(gold: 20);
-			item.UseSound = SoundID.Item105;
+			//item.UseSound = SoundID.Item105;
+			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Item/Rocky");
 			item.consumable = false;
 			item.maxStack = 1;
 			item.width = 35;

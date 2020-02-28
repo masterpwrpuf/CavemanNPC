@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -27,7 +29,8 @@ namespace CavemanNPC.Items.Pets
             item.buffType = mod.BuffType("SpaceDude");
 			item.rare = -12;
 			item.value = Item.buyPrice(gold: 100);
-			item.UseSound = SoundID.Item25;
+			//item.UseSound = SoundID.Item25;
+			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Item/Shoot");
 			item.consumable = false;
 			item.maxStack = 1;
 			item.width = 44;

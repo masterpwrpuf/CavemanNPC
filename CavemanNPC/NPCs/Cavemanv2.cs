@@ -89,10 +89,11 @@ namespace CavemanNPC.NPCs
 		public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
             if (NPC.downedSlimeKing == true); {
-				return true;
+				return true; {
 			}
+		}
 			return false;
-        }
+    }
 	//} // Un-comment if using downedBoss1
 
 		public override string TownNPCName() {
