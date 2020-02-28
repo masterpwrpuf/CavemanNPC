@@ -64,7 +64,7 @@ A WIP Stone Spear.
 ***
 
 ### Pet Rock
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon")
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconrock.png "Pet Rock Icon") ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/CavemanNPC/Buffs/PetRock.png "Pet Rock Buff Icon")
 
 Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special about this rock really. Rocky is on loan from Rokk's friend, Patrick.
 
