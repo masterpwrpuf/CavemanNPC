@@ -71,7 +71,7 @@ Rocky, as Rokk likes to call him, is, well... a rock. There is nothing special a
 ***
 
 ### Space Dude
-![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconspacedude.png "Space Dude Icon")
+![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/iconspacedude.png "Space Dude Icon") ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/CavemanNPC/Buffs/SpaceDude.png "Space Dude Buff Icon")
 
 A custom pet requested by 3CupsOfTea.
 
