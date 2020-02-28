@@ -5,8 +5,9 @@
 ##### Feel free to copy and edit the source code
 
 ## Whats New?
-##### Changelog 1.5.0
+##### Changelog 1.5.0 & 1.5.1
 
+* Added custom use sounds for Space Dude and Pet Rock
 * Removed all custom weapons from the Caveman's shop until proper sprites are made
 * Changed the Caveman's choice of melee weapon from "Rokk's Club" to a Wooden Sword
 
