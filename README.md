@@ -4,6 +4,8 @@
 
 ##### Feel free to copy and edit the source code
 
+#### I don't think I'll be updating this mod again, but we'll see
+
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/stats.png "Mod Stats")  
 *Last stat update 10/22/2020*
 
