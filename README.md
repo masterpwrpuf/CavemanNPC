@@ -4,6 +4,8 @@
 
 ##### Feel free to copy and edit the source code
 
+![alt text] (https://github.com/masterpwrpuf/CavemanNPC/blob/master/CavemanNPC/stats.png "Mod Stats")
+
 ## Whats New?
 ##### Changelog 1.5.0 & 1.5.1
 
