@@ -5,7 +5,7 @@
 ##### Feel free to copy and edit the source code
 
 ![alt text](https://github.com/masterpwrpuf/CavemanNPC/blob/master/Icons/stats.png "Mod Stats")
-* Last stat update 10/22/2020 *
+*Last stat update 10/22/2020*
 
 ## Whats New?
 ##### Changelog 1.5.0 & 1.5.1
